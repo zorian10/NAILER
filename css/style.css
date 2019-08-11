@@ -1,0 +1,76 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: black !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #black !important;
+  }
+}
+
+h1 {
+  letter-spacing: 8px;
+}
+
+h5 {
+  letter-spacing: 3px;
+}
+
+
+/*-------*/
+.img-responsive{
+  width: 450px;
+  height: 230px;
+}
+.fa-instagram {
+  margin-right: 50px;
+}
+#projects{
+  margin-top: 150px;
+}
+.img-fluid{
+  height: 300px;
+  width: 400px;
+}
+@media(max-width: 340px){
+  .about_img{
+  display: none;
+  }
+}
+.h1-responsive{
+  letter-spacing: 15px;
+}
+
+#myTabJust{
+  margin-top: 100px;
+}
+ .k a{
+   text-decoration: none;
+   color:black;
+ }
+.nav-item:active{
+  background-color:black;
+}
+#price{
+  font-size: 25px;
+}
